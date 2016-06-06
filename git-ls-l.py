@@ -77,7 +77,7 @@ def enhanced_ls():
             sys.stderr.write("Status type not found [" + gfile[0] + "]")
     for lfile in list_files:
         #modify here for pretty print
-        print("\t".join(lfile) + "\n")
+        print " ".join(word.ljust(4) for word in lfile)
 
 
 
