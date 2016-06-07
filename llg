@@ -11,6 +11,7 @@ status_type = {
         "AM": "M",
         "A": "A",
         "D": "RM",
+        "AD": "RM",
         "R": "Rnamed",
         "C": "C",
         "!!": "IG",
@@ -23,6 +24,7 @@ color_code = {
         "AM": "\033[33m", #Orange
         "A": "\033[32m", #Green
         "D": "\033[31m", #Red
+        "AD": "\033[31m", #Red
         "R": "\033[31m", #Red
         "C": "\033[36m", #Teal
         "!!": "\033[31m", #Red
