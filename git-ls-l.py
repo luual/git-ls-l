@@ -2,6 +2,7 @@
 
 import subprocess
 import sys
+import os
 
 status_type = {
         "U": "updated",
@@ -57,21 +58,25 @@ def enhanced_ls():
                         if lfile[-1] == new_gfile[0] or lfile[-1] + '/' == gfile[0]:
                             lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
                         pass
-                    list_path_root = path_root.split('/')
-                    list_pwd = pwd.split('/')
-                    for item_pwd in list(list_pwd):
-                        for item_path_root in list_path_root:
-                            if item_path_root == item_pwd:
-                                list_pwd.remove(item_path_root)
-                    if list_pwd:
-                        list_pwd.pop(0)
-                        #print("enhanced ls else : {}".format('/'.join(list_pwd)))
-                        new_path = '/'.join(list_pwd).rstrip()
-
-                        #print("gf : {} // lf: {}".format(gfile[1], new_path + '/' + lfile[-1]))
-                        if gfile[1] == new_path + '/' + lfile[-1] or gfile[1] == new_path + '/' + lfile[-1] + '/':
-                            #HEre to change the print of the file
-                            lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
+                    else:
+                        list_path_root = path_root.split('/')
+                        list_pwd = pwd.split('/')
+                        for item_pwd in list(list_pwd):
+                            for item_path_root in list_path_root:
+                                if item_path_root == item_pwd:
+                                    list_pwd.remove(item_path_root)
+                        if list_pwd:
+                            list_pwd.pop(0)
+                            #print("enhanced ls else : {}".format('/'.join(list_pwd)))
+                            new_path = '/'.join(list_pwd).rstrip()
+                            #print("gf : {} // lf: {}".format(gfile[1], new_path + '/' + lfile[-1]))
+                            if gfile[1] == new_path + '/' + lfile[-1] or gfile[1] == new_path + '/' + lfile[-1] + '/':
+                                #Here to change the print of the file
+                                lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
+                            else:
+                                if os.path.isdir(lfile[-1]):
+                                    if gfile[1].find(new_path + "/" + lfile[-1]) >= 0:
+                                        lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
 
         else:
             sys.stderr.write("Status type not found [" + gfile[0] + "]")
