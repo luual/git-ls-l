@@ -59,9 +59,9 @@ def colored_text(text, status_key):
 def enhanced_ls():
     git_files = git_status_files()
     list_files = long_list_files()
-    for gfile in git_files:
-        if gfile[0] in status_type:
-            for lfile in list_files:
+    for lfile in list_files:
+        for gfile in git_files:
+            if gfile[0] in status_type:
                 if lfile[-1] == gfile[1] or lfile[-1] + '/' == gfile[1]:
                     #Here to change the print of the file
                     #lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
@@ -102,9 +102,9 @@ def enhanced_ls():
                                         lfile[-1] = colored_text(lfile[-1], gfile[0])
                 if len(lfile) == 9:
                     #Change here for Unchanged files
-                    lfile.insert(-1, "\033[0m \033[0m")
-        else:
-            sys.stderr.write("Status type not found [" + gfile[0] + "]")
+                    lfile.insert(-1, "\033[0m\033[0m")
+            else:
+                sys.stderr.write("Status type not found [" + gfile[0] + "]")
     for lfile in list_files:
         #modify here for pretty print
         if len(lfile) != 10 and len(lfile) > 8:
