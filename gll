@@ -5,14 +5,25 @@ import sys
 import os
 
 status_type = {
-        "U": "updated",
-        "M": "modified",
-        "AM": "modified",
-        "A": "added",
-        "D": "deleted",
-        "R": "renamed",
-        "C": "copied",
-        "??": "untracked"
+        "U": "U",
+        "M": "M",
+        "AM": "M",
+        "A": "A",
+        "D": "RM",
+        "R": "Rnamed",
+        "C": "C",
+        "??": "??"
+}
+
+color_code = {
+        "U": "\033[33m", #Orange
+        "M": "\033[33m", #Orange
+        "AM": "\033[33m", #Orange
+        "A": "\033[32m", #Green
+        "D": "\033[31m", #Red
+        "R": "\033[31m", #Red
+        "C": "\033[36m", #Teal
+        "??": "\033[35m",
 }
 
 def get_root_directory():
@@ -40,6 +51,11 @@ def git_status_files():
         list_status_files.append(line.split())
     return list_status_files
 
+def colored_text(text, status_key):
+    output = color_code[status_key] + text + "\033[0m"
+    return output
+
+
 def enhanced_ls():
     git_files = git_status_files()
     list_files = long_list_files()
@@ -48,7 +64,9 @@ def enhanced_ls():
             for lfile in list_files:
                 if lfile[-1] == gfile[1] or lfile[-1] + '/' == gfile[1]:
                     #Here to change the print of the file
-                    lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
+                    #lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
+                    lfile.insert(-1, colored_text(status_type[gfile[0]], gfile[0]))
+                    lfile[-1] = colored_text(lfile[-1], gfile[0])
                 else:
                     path_root = get_root_directory()
                     pwd = subprocess.Popen(["pwd"], stdout=subprocess.PIPE).communicate()[0]
@@ -56,8 +74,9 @@ def enhanced_ls():
                         new_gfile = gfile[1].split('/')
                         new_gfile = filter(None, new_gfile)
                         if lfile[-1] == new_gfile[0] or lfile[-1] + '/' == gfile[0]:
-                            lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
-                        pass
+                            #lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
+                            lfile.insert(-1, colored_text(status_type[gfile[0]], gfile[0]))
+                            lfile[-1] = colored_text(lfile[-1], gfile[0])
                     else:
                         list_path_root = path_root.split('/')
                         list_pwd = pwd.split('/')
@@ -72,19 +91,25 @@ def enhanced_ls():
                             #print("gf : {} // lf: {}".format(gfile[1], new_path + '/' + lfile[-1]))
                             if gfile[1] == new_path + '/' + lfile[-1] or gfile[1] == new_path + '/' + lfile[-1] + '/':
                                 #Here to change the print of the file
-                                lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
+                                #lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
+                                lfile.insert(-1, colored_text(status_type[gfile[0]], gfile[0]))
+                                lfile[-1] = colored_text(lfile[-1], gfile[0])
                             else:
                                 if os.path.isdir(lfile[-1]):
                                     if gfile[1].find(new_path + "/" + lfile[-1]) >= 0:
-                                        lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
-
+                                        #lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
+                                        lfile.insert(-1, colored_text(status_type[gfile[0]], gfile[0]))
+                                        lfile[-1] = colored_text(lfile[-1], gfile[0])
+                if len(lfile) == 9:
+                    #Change here for Unchanged files
+                    lfile.insert(-1, "\033[0m \033[0m")
         else:
             sys.stderr.write("Status type not found [" + gfile[0] + "]")
     for lfile in list_files:
         #modify here for pretty print
-        print " ".join(word.ljust(4) for word in lfile)
-
-
+        if len(lfile) != 10 and len(lfile) > 8:
+            lfile.pop(8)
+        print " ".join(word.ljust(6) for word in lfile)
 
 def main():
     enhanced_ls()
