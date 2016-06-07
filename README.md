@@ -4,7 +4,24 @@ Insert build from [Travis] or jenkins and requirements from [requires.io]
 
 "Git ls -l" is a python binary to enhanced ls -l with git integration
 
-./git-ls-l
+## How to install
+
+I highly recommand to copy the binary to /usr/local/bin
+
+And use this command directly in the shell `llg`
+
+## Git Information
+
+| Git Status | Showed |
+|------------|--------|
+|  Updated   |   U    |
+|  Modified  |   M    |
+|  Added     |   A    |
+|  Deleted   |   RM   |
+|  Renamed   |   Rnamed|
+|  Copied    |   C    |
+|  Ignored   |   !!   |
+|  Untracked |   ??   |
 
 [Travis]: https://travis-ci.org
 [requires.io]: https://requires.io
