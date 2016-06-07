@@ -12,6 +12,7 @@ status_type = {
         "D": "RM",
         "R": "Rnamed",
         "C": "C",
+        "!!": "IG",
         "??": "??"
 }
 
@@ -23,7 +24,8 @@ color_code = {
         "D": "\033[31m", #Red
         "R": "\033[31m", #Red
         "C": "\033[36m", #Teal
-        "??": "\033[35m",
+        "!!": "\033[31m", #Red
+        "??": "\033[35m", #Purple
 }
 
 def get_root_directory():
