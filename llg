@@ -3,6 +3,7 @@
 import subprocess
 import sys
 import os
+import re
 
 status_type = {
         "U": "U",
@@ -28,6 +29,8 @@ color_code = {
         "??": "\033[35m", #Purple
 }
 
+ansi_escape = re.compile(r'\x1b[^m]*m')
+
 def get_root_directory():
     root_path_cmd = "git rev-parse --show-toplevel"
     output = subprocess.Popen(root_path_cmd.split(), stdout=subprocess.PIPE).communicate()[0]
@@ -36,7 +39,7 @@ def get_root_directory():
 def long_list_files():
     list_files = []
     # Add --color to add color but remove the enhanced
-    output = subprocess.Popen(["ls", "-la"], stdout=subprocess.PIPE).communicate()[0]
+    output = subprocess.Popen(["ls", "-la", "--color"], stdout=subprocess.PIPE).communicate()[0]
     output_lines = output.split("\n")
     output_lines = filter(None, output_lines)
     for line in output_lines:
@@ -64,7 +67,7 @@ def enhanced_ls():
     for lfile in list_files:
         for gfile in git_files:
             if gfile[0] in status_type:
-                if lfile[-1] == gfile[1] or lfile[-1] + '/' == gfile[1]:
+                if ansi_escape.sub('', lfile[-1]) == gfile[1] or ansi_escape.sub('', lfile[-1]) + '/' == gfile[1]:
                     #Here to change the print of the file
                     #lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
                     lfile.insert(-1, colored_text(status_type[gfile[0]], gfile[0]))
@@ -75,7 +78,7 @@ def enhanced_ls():
                     if path_root == pwd:
                         new_gfile = gfile[1].split('/')
                         new_gfile = filter(None, new_gfile)
-                        if lfile[-1] == new_gfile[0] or lfile[-1] + '/' == gfile[0]:
+                        if ansi_escape.sub('', lfile[-1]) == new_gfile[0] or ansi_escape.sub('', lfile[-1]) + '/' == gfile[0]:
                             #lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
                             lfile.insert(-1, colored_text(status_type[gfile[0]], gfile[0]))
                             lfile[-1] = colored_text(lfile[-1], gfile[0])
@@ -91,14 +94,14 @@ def enhanced_ls():
                             #print("enhanced ls else : {}".format('/'.join(list_pwd)))
                             new_path = '/'.join(list_pwd).rstrip()
                             #print("gf : {} // lf: {}".format(gfile[1], new_path + '/' + lfile[-1]))
-                            if gfile[1] == new_path + '/' + lfile[-1] or gfile[1] == new_path + '/' + lfile[-1] + '/':
+                            if gfile[1] == new_path + '/' + ansi_escape.sub('', lfile[-1]) or gfile[1] == new_path + '/' + ansi_escape.sub('', lfile[-1]) + '/':
                                 #Here to change the print of the file
                                 #lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
                                 lfile.insert(-1, colored_text(status_type[gfile[0]], gfile[0]))
                                 lfile[-1] = colored_text(lfile[-1], gfile[0])
                             else:
                                 if os.path.isdir(lfile[-1]):
-                                    if gfile[1].find(new_path + "/" + lfile[-1]) >= 0:
+                                    if gfile[1].find(new_path + "/" + ansi_escape.sub('', lfile[-1])) >= 0:
                                         #lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
                                         lfile.insert(-1, colored_text(status_type[gfile[0]], gfile[0]))
                                         lfile[-1] = colored_text(lfile[-1], gfile[0])
