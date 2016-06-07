@@ -100,11 +100,12 @@ def enhanced_ls():
                                         #lfile[-1] = lfile[-1] + " [" + status_type[gfile[0]] + "]"
                                         lfile.insert(-1, colored_text(status_type[gfile[0]], gfile[0]))
                                         lfile[-1] = colored_text(lfile[-1], gfile[0])
-                if len(lfile) == 9:
-                    #Change here for Unchanged files
-                    lfile.insert(-1, "\033[0m\033[0m")
             else:
                 sys.stderr.write("Status type not found [" + gfile[0] + "]")
+        if len(lfile) == 9:
+        #Change here for Unchanged files
+            lfile.insert(-1, "\033[0m \033[0m")
+
     for lfile in list_files:
         #modify here for pretty print
         if len(lfile) != 10 and len(lfile) > 8:
