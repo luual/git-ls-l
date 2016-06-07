@@ -39,7 +39,7 @@ def get_root_directory():
 def long_list_files():
     list_files = []
     # Add --color to add color but remove the enhanced
-    output = subprocess.Popen(["ls", "-la", "--color"], stdout=subprocess.PIPE).communicate()[0]
+    output = subprocess.Popen(["ls", "-lha", "--color"], stdout=subprocess.PIPE).communicate()[0]
     output_lines = output.split("\n")
     output_lines = filter(None, output_lines)
     for line in output_lines:
