@@ -23,5 +23,9 @@ And use this command directly in the shell `llg`
 |  Ignored   |   !!   |
 |  Untracked |   ??   |
 
+## Screenshot
+
+![Screenshot] (http://img15.hostingpics.net/pics/726358llgtest.png)
+
 [Travis]: https://travis-ci.org
 [requires.io]: https://requires.io
