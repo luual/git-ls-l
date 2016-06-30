@@ -8,7 +8,7 @@ Insert build from [Travis] or jenkins and requirements from [requires.io]
 
 I highly recommand to copy the binary to /usr/local/bin
 
-And use this command directly in the 
+And use this command directly in the shell
 ```shell
 llg
 ```
