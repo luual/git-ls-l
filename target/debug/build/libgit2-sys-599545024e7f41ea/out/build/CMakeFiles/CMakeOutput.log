@@ -1,0 +1,408 @@
+The system is: Linux - 4.4.0-28-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: ;-O0;-ffunction-sections;-fdata-sections;-m64;-fPIC
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ea7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ea7d.dir/build.make CMakeFiles/cmTC_5ea7d.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ea7d.dir/testCCompiler.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -o CMakeFiles/cmTC_5ea7d.dir/testCCompiler.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5ea7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ea7d.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC     CMakeFiles/cmTC_5ea7d.dir/testCCompiler.c.o  -o cmTC_5ea7d -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41846/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41846.dir/build.make CMakeFiles/cmTC_41846.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41846.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -o CMakeFiles/cmTC_41846.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_41846
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41846.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -v CMakeFiles/cmTC_41846.dir/CMakeCCompilerABI.c.o  -o cmTC_41846 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.3.1-14ubuntu2.1' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.3.1 20160413 (Ubuntu 5.3.1-14ubuntu2.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O0' '-ffunction-sections' '-fdata-sections' '-m64' '-fPIC' '-v' '-o' 'cmTC_41846' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLnt1jN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_41846 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_41846.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_41846/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_41846.dir/build.make CMakeFiles/cmTC_41846.dir/build]
+  ignore line: [make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_41846.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -o CMakeFiles/cmTC_41846.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_41846]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41846.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -v CMakeFiles/cmTC_41846.dir/CMakeCCompilerABI.c.o  -o cmTC_41846 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.3.1-14ubuntu2.1' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.3.1 20160413 (Ubuntu 5.3.1-14ubuntu2.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O0' '-ffunction-sections' '-fdata-sections' '-m64' '-fPIC' '-v' '-o' 'cmTC_41846' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLnt1jN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_41846 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_41846.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLnt1jN.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_41846] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_41846.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_933a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_933a2.dir/build.make CMakeFiles/cmTC_933a2.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_933a2.dir/feature_tests.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -std=c11 -o CMakeFiles/cmTC_933a2.dir/feature_tests.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_933a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_933a2.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC     CMakeFiles/cmTC_933a2.dir/feature_tests.c.o  -o cmTC_933a2 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65a0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65a0a.dir/build.make CMakeFiles/cmTC_65a0a.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65a0a.dir/feature_tests.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -std=c99 -o CMakeFiles/cmTC_65a0a.dir/feature_tests.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_65a0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65a0a.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC     CMakeFiles/cmTC_65a0a.dir/feature_tests.c.o  -o cmTC_65a0a -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1968a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1968a.dir/build.make CMakeFiles/cmTC_1968a.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1968a.dir/feature_tests.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -std=c90 -o CMakeFiles/cmTC_1968a.dir/feature_tests.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1968a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1968a.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC     CMakeFiles/cmTC_1968a.dir/feature_tests.c.o  -o cmTC_1968a -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_ATIM succeeded with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9be4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9be4.dir/build.make CMakeFiles/cmTC_a9be4.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9be4.dir/src.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC -DHAVE_STRUCT_STAT_ST_ATIM   -o CMakeFiles/cmTC_a9be4.dir/src.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a9be4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9be4.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -DHAVE_STRUCT_STAT_ST_ATIM    CMakeFiles/cmTC_a9be4.dir/src.c.o  -o cmTC_a9be4 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_atim);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_NSEC succeeded with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ea9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ea9b.dir/build.make CMakeFiles/cmTC_3ea9b.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ea9b.dir/src.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC -DHAVE_STRUCT_STAT_NSEC   -o CMakeFiles/cmTC_3ea9b.dir/src.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3ea9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ea9b.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -DHAVE_STRUCT_STAT_NSEC    CMakeFiles/cmTC_3ea9b.dir/src.c.o  -o cmTC_3ea9b -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+   return 0;
+}
+
+Performing C SOURCE FILE Test IS_WNO-MISSING-FIELD-INITIALIZERS_SUPPORTED succeeded with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a0d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a0d5.dir/build.make CMakeFiles/cmTC_6a0d5.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a0d5.dir/src.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -DIS_WNO-MISSING-FIELD-INITIALIZERS_SUPPORTED   -Wno-missing-field-initializers -o CMakeFiles/cmTC_6a0d5.dir/src.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:7: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_6a0d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a0d5.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -DIS_WNO-MISSING-FIELD-INITIALIZERS_SUPPORTED    CMakeFiles/cmTC_6a0d5.dir/src.c.o  -o cmTC_6a0d5 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WSTRICT-ALIASING=2_SUPPORTED succeeded with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09066/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09066.dir/build.make CMakeFiles/cmTC_09066.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09066.dir/src.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -DIS_WSTRICT-ALIASING=2_SUPPORTED   -Wstrict-aliasing=2 -o CMakeFiles/cmTC_09066.dir/src.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:11: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_09066
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09066.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -DIS_WSTRICT-ALIASING=2_SUPPORTED    CMakeFiles/cmTC_09066.dir/src.c.o  -o cmTC_09066 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WSTRICT-PROTOTYPES_SUPPORTED succeeded with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08ace/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08ace.dir/build.make CMakeFiles/cmTC_08ace.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08ace.dir/src.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -DIS_WSTRICT-PROTOTYPES_SUPPORTED   -Wstrict-prototypes -o CMakeFiles/cmTC_08ace.dir/src.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:11: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_08ace
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08ace.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -DIS_WSTRICT-PROTOTYPES_SUPPORTED    CMakeFiles/cmTC_08ace.dir/src.c.o  -o cmTC_08ace -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WDECLARATION-AFTER-STATEMENT_SUPPORTED succeeded with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df9ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df9ce.dir/build.make CMakeFiles/cmTC_df9ce.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df9ce.dir/src.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -DIS_WDECLARATION-AFTER-STATEMENT_SUPPORTED   -Wdeclaration-after-statement -o CMakeFiles/cmTC_df9ce.dir/src.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:16: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_df9ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df9ce.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -DIS_WDECLARATION-AFTER-STATEMENT_SUPPORTED    CMakeFiles/cmTC_df9ce.dir/src.c.o  -o cmTC_df9ce -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WNO-UNUSED-FUNCTION_SUPPORTED succeeded with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3d35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3d35.dir/build.make CMakeFiles/cmTC_c3d35.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3d35.dir/src.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -DIS_WNO-UNUSED-FUNCTION_SUPPORTED   -Wno-unused-function -o CMakeFiles/cmTC_c3d35.dir/src.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:7: warning: ISO C99 requires whitespace after the macro name
+Linking C executable cmTC_c3d35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3d35.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -DIS_WNO-UNUSED-FUNCTION_SUPPORTED    CMakeFiles/cmTC_c3d35.dir/src.c.o  -o cmTC_c3d35 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function futimens exists passed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65dcd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65dcd.dir/build.make CMakeFiles/cmTC_65dcd.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65dcd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=futimens   -o CMakeFiles/cmTC_65dcd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_65dcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65dcd.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=futimens    CMakeFiles/cmTC_65dcd.dir/CheckFunctionExists.c.o  -o cmTC_65dcd -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function qsort_r exists passed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9237/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9237.dir/build.make CMakeFiles/cmTC_f9237.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9237.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=qsort_r   -o CMakeFiles/cmTC_f9237.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_f9237
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9237.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=qsort_r    CMakeFiles/cmTC_f9237.dir/CheckFunctionExists.c.o  -o cmTC_f9237 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_883f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_883f3.dir/build.make CMakeFiles/cmTC_883f3.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_883f3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function    -o CMakeFiles/cmTC_883f3.dir/CheckIncludeFile.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_883f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_883f3.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function     CMakeFiles/cmTC_883f3.dir/CheckIncludeFile.c.o  -o cmTC_883f3 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f973f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f973f.dir/build.make CMakeFiles/cmTC_f973f.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f973f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f973f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_f973f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f973f.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f973f.dir/CheckFunctionExists.c.o  -o cmTC_f973f -rdynamic -lpthread 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15048/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15048.dir/build.make CMakeFiles/cmTC_15048.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15048.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_15048.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_15048
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15048.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_15048.dir/CheckFunctionExists.c.o  -o cmTC_15048  -L/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/time.h -rdynamic -lrt -Wl,-rpath,/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/time.h 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+

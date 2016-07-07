@@ -1,0 +1,69 @@
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b66c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b66c.dir/build.make CMakeFiles/cmTC_4b66c.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b66c.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTC_4b66c.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: windows.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_4b66c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4b66c.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4b66c.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4b66c/fast' failed
+make: *** [cmTC_4b66c/fast] Error 2
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files ws2tcpip.h exist failed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17146/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17146.dir/build.make CMakeFiles/cmTC_17146.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17146.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTC_17146.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: ws2tcpip.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_17146.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_17146.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_17146.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_17146/fast' failed
+make: *** [cmTC_17146/fast] Error 2
+
+Source:
+/* */
+#include <ws2tcpip.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h exist failed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5d38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5d38.dir/build.make CMakeFiles/cmTC_c5d38.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5d38.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTC_c5d38.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: winsock2.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_c5d38.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c5d38.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c5d38.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c5d38/fast' failed
+make: *** [cmTC_c5d38/fast] Error 2
+
+Source:
+/* */
+#include <winsock2.h>
+
+
+int main(void){return 0;}
+

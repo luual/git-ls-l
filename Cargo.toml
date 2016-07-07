@@ -1,0 +1,7 @@
+[package]
+name = "git-ls-l"
+version = "0.1.0"
+authors = ["alexpug <alexandreluu6@gmail.com>"]
+
+[dependencies]
+git2 = "0.4.3"

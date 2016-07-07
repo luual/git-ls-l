@@ -1,0 +1,7 @@
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/install.dir
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/list_install_components.dir
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/rebuild_cache.dir
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/install/strip.dir
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/install/local.dir
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/git2.dir
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/edit_cache.dir

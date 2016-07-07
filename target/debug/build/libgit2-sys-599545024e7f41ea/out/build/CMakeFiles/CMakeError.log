@@ -1,0 +1,459 @@
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_ATIMESPEC failed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1afb0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1afb0.dir/build.make CMakeFiles/cmTC_1afb0.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1afb0.dir/src.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC -DHAVE_STRUCT_STAT_ST_ATIMESPEC   -o CMakeFiles/cmTC_1afb0.dir/src.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c:7:35: error: ‘struct stat’ has no member named ‘st_atimespec’
+    (void)sizeof(((struct stat *)0)->st_atimespec);
+                                   ^
+CMakeFiles/cmTC_1afb0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1afb0.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1afb0.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1afb0/fast' failed
+make: *** [cmTC_1afb0/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+   (void)sizeof(((struct stat *)0)->st_atimespec);
+   return 0;
+}
+
+Determining if the function libssh2_userauth_publickey_frommemory exists in the ssh2 failed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ddb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ddb3.dir/build.make CMakeFiles/cmTC_7ddb3.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ddb3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -O0 -ffunction-sections -fdata-sections -m64 -fPIC -DCHECK_FUNCTION_EXISTS=libssh2_userauth_publickey_frommemory   -o CMakeFiles/cmTC_7ddb3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7ddb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ddb3.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -DCHECK_FUNCTION_EXISTS=libssh2_userauth_publickey_frommemory    CMakeFiles/cmTC_7ddb3.dir/CheckFunctionExists.c.o  -o cmTC_7ddb3  -L/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib -rdynamic -lssh2 -Wl,-rpath,/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib 
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_rsa_new':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:69: undefined reference to `RSA_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:71: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:72: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:74: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:75: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:78: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:79: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:81: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:82: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:84: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:85: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:87: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:88: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:90: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:91: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:93: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:94: undefined reference to `BN_bin2bn'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_rsa_sha1_verify':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:110: undefined reference to `RSA_verify'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_dsa_new':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:128: undefined reference to `DSA_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:130: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:131: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:133: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:134: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:136: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:137: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:139: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:140: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:143: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:144: undefined reference to `BN_bin2bn'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_dsa_sha1_verify':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:159: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:160: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:161: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:162: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:166: undefined reference to `DSA_do_verify'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:168: undefined reference to `BN_clear_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:169: undefined reference to `BN_clear_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_cipher_init':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:180: undefined reference to `EVP_CIPHER_CTX_init'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:181: undefined reference to `EVP_CipherInit'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_cipher_crypt':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:194: undefined reference to `EVP_Cipher'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `aes_ctr_init':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:227: undefined reference to `EVP_aes_128_ecb'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:230: undefined reference to `EVP_aes_192_ecb'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:233: undefined reference to `EVP_aes_256_ecb'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:249: undefined reference to `EVP_EncryptInit'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:255: undefined reference to `EVP_CIPHER_CTX_set_padding'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:259: undefined reference to `EVP_CIPHER_CTX_set_app_data'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `aes_ctr_do_cipher':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:269: undefined reference to `EVP_CIPHER_CTX_get_app_data'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:288: undefined reference to `EVP_EncryptUpdate'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `aes_ctr_cleanup':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:308: undefined reference to `EVP_CIPHER_CTX_get_app_data'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:315: undefined reference to `EVP_CIPHER_CTX_cleanup'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `read_private_key_from_memory':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:404: undefined reference to `BIO_new_mem_buf'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:411: undefined reference to `BIO_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `read_private_key_from_file':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:425: undefined reference to `BIO_new_file'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:433: undefined reference to `BIO_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_rsa_new_private_frommemory':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:443: undefined reference to `PEM_read_bio_RSAPrivateKey'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_rsa_new_private':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:458: undefined reference to `PEM_read_bio_RSAPrivateKey'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_dsa_new_private_frommemory':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:475: undefined reference to `PEM_read_bio_DSAPrivateKey'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_dsa_new_private':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:490: undefined reference to `PEM_read_bio_DSAPrivateKey'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_rsa_sha1_sign':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:512: undefined reference to `RSA_size'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:519: undefined reference to `RSA_sign'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_dsa_sha1_sign':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:542: undefined reference to `DSA_do_sign'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:547: undefined reference to `BN_num_bits'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:549: undefined reference to `DSA_SIG_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:552: undefined reference to `BN_num_bits'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:554: undefined reference to `DSA_SIG_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:560: undefined reference to `BN_bn2bin'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:561: undefined reference to `BN_bn2bin'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:563: undefined reference to `DSA_SIG_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_sha1_init':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:572: undefined reference to `EVP_MD_CTX_init'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:573: undefined reference to `EVP_get_digestbyname'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:573: undefined reference to `EVP_DigestInit'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_sha1':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:582: undefined reference to `EVP_MD_CTX_init'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:583: undefined reference to `EVP_get_digestbyname'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:583: undefined reference to `EVP_DigestInit'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:584: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:585: undefined reference to `EVP_DigestFinal'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_md5_init':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:594: undefined reference to `EVP_MD_CTX_init'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:595: undefined reference to `EVP_get_digestbyname'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:595: undefined reference to `EVP_DigestInit'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `write_bn':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:607: undefined reference to `BN_bn2bin'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `gen_publickey_from_rsa':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:625: undefined reference to `BN_num_bits'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:626: undefined reference to `BN_num_bits'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `gen_publickey_from_dsa':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:661: undefined reference to `BN_num_bits'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:662: undefined reference to `BN_num_bits'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:663: undefined reference to `BN_num_bits'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o):/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:664: more undefined references to `BN_num_bits' follow
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `gen_publickey_from_rsa_evp':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:709: undefined reference to `EVP_PKEY_get1_RSA'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:724: undefined reference to `RSA_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:735: undefined reference to `RSA_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `gen_publickey_from_dsa_evp':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:764: undefined reference to `EVP_PKEY_get1_DSA'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:779: undefined reference to `DSA_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:790: undefined reference to `DSA_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_pub_priv_keyfile':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:820: undefined reference to `BIO_new_file'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:827: undefined reference to `EVP_get_cipherbyname'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:833: undefined reference to `OpenSSL_add_all_ciphers'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:835: undefined reference to `BIO_ctrl'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:836: undefined reference to `PEM_read_bio_PrivateKey'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:837: undefined reference to `BIO_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:870: undefined reference to `EVP_PKEY_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(openssl.c.o): In function `_libssh2_pub_priv_keyfilememory':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:892: undefined reference to `BIO_new_mem_buf'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:896: undefined reference to `EVP_get_cipherbyname'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:902: undefined reference to `OpenSSL_add_all_ciphers'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:904: undefined reference to `BIO_ctrl'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:905: undefined reference to `PEM_read_bio_PrivateKey'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:906: undefined reference to `BIO_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/openssl.c:937: undefined reference to `EVP_PKEY_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(global.c.o): In function `libssh2_init':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/global.c:48: undefined reference to `OPENSSL_add_all_algorithms_noconf'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(hostkey.c.o): In function `hostkey_method_ssh_rsa_signv':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/hostkey.c:207: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/hostkey.c:209: undefined reference to `EVP_DigestFinal'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(hostkey.c.o): In function `hostkey_method_ssh_rsa_dtor':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/hostkey.c:231: undefined reference to `RSA_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(hostkey.c.o): In function `hostkey_method_ssh_dss_signv':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/hostkey.c:424: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/hostkey.c:426: undefined reference to `EVP_DigestFinal'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(hostkey.c.o): In function `hostkey_method_ssh_dss_dtor':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/hostkey.c:447: undefined reference to `DSA_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(transport.c.o): In function `_libssh2_transport_send':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/transport.c:835: undefined reference to `RAND_bytes'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(channel.c.o): In function `channel_x11_req':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/channel.c:1155: undefined reference to `RAND_bytes'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(kex.c.o): In function `diffie_hellman_sha1':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:96: undefined reference to `BN_CTX_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:97: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:98: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:99: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:100: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:106: undefined reference to `BN_rand'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:107: undefined reference to `BN_mod_exp'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:113: undefined reference to `BN_num_bits'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:114: undefined reference to `BN_num_bits'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:129: undefined reference to `BN_num_bits'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:130: undefined reference to `BN_bn2bin'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:134: undefined reference to `BN_bn2bin'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:222: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:224: undefined reference to `EVP_DigestFinal'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:250: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:252: undefined reference to `EVP_DigestFinal'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:286: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:294: undefined reference to `BN_mod_exp'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:296: undefined reference to `BN_num_bits'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:297: undefined reference to `BN_num_bits'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:310: undefined reference to `BN_num_bits'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:311: undefined reference to `BN_bn2bin'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:314: undefined reference to `BN_bn2bin'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:321: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:323: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:329: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:331: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:338: undefined reference to `EVP_DigestUpdate'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(kex.c.o):/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:340: more undefined references to `EVP_DigestUpdate' follow
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(kex.c.o): In function `diffie_hellman_sha1':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:408: undefined reference to `EVP_DigestFinal'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:482: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:482: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:482: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:482: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:482: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:482: undefined reference to `EVP_DigestFinal'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:489: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:489: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:489: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:489: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:489: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:489: undefined reference to `EVP_DigestFinal'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:529: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:529: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:529: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:529: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:529: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:529: undefined reference to `EVP_DigestFinal'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:536: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:536: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:536: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:536: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:536: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:536: undefined reference to `EVP_DigestFinal'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:574: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:574: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:574: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:574: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:574: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:574: undefined reference to `EVP_DigestFinal'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:600: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:600: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:600: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:600: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:600: undefined reference to `EVP_DigestUpdate'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:600: undefined reference to `EVP_DigestFinal'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:654: undefined reference to `BN_clear_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:656: undefined reference to `BN_clear_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:658: undefined reference to `BN_clear_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:660: undefined reference to `BN_clear_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:662: undefined reference to `BN_CTX_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(kex.c.o): In function `kex_method_diffie_hellman_group1_sha1_key_exchange':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:718: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:719: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:722: undefined reference to `BN_set_word'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:723: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:737: undefined reference to `BN_clear_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:739: undefined reference to `BN_clear_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(kex.c.o): In function `kex_method_diffie_hellman_group14_sha1_key_exchange':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:793: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:794: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:798: undefined reference to `BN_set_word'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:799: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:814: undefined reference to `BN_clear_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:816: undefined reference to `BN_clear_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(kex.c.o): In function `kex_method_diffie_hellman_group_exchange_sha1_key_exchange':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:837: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:838: undefined reference to `BN_new'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:892: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:897: undefined reference to `BN_bin2bn'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:914: undefined reference to `BN_clear_free'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:916: undefined reference to `BN_clear_free'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(kex.c.o): In function `kexinit':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/kex.c:1081: undefined reference to `RAND_bytes'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(mac.c.o): In function `mac_method_hmac_sha1_hash':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:116: undefined reference to `HMAC_CTX_init'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:117: undefined reference to `EVP_sha1'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:117: undefined reference to `HMAC_Init'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:118: undefined reference to `HMAC_Update'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:119: undefined reference to `HMAC_Update'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:121: undefined reference to `HMAC_Update'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:123: undefined reference to `HMAC_Final'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:124: undefined reference to `HMAC_CTX_cleanup'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(mac.c.o): In function `mac_method_hmac_md5_hash':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:189: undefined reference to `HMAC_CTX_init'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:190: undefined reference to `EVP_md5'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:190: undefined reference to `HMAC_Init'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:191: undefined reference to `HMAC_Update'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:192: undefined reference to `HMAC_Update'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:194: undefined reference to `HMAC_Update'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:196: undefined reference to `HMAC_Final'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:197: undefined reference to `HMAC_CTX_cleanup'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(mac.c.o): In function `mac_method_hmac_ripemd160_hash':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:262: undefined reference to `HMAC_CTX_init'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:263: undefined reference to `EVP_ripemd160'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:263: undefined reference to `HMAC_Init'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:264: undefined reference to `HMAC_Update'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:265: undefined reference to `HMAC_Update'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:267: undefined reference to `HMAC_Update'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:269: undefined reference to `HMAC_Final'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/mac.c:270: undefined reference to `HMAC_CTX_cleanup'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(comp.c.o): In function `comp_method_zlib_init':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/comp.c:156: undefined reference to `deflateInit_'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/comp.c:159: undefined reference to `inflateInit_'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(comp.c.o): In function `comp_method_zlib_comp':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/comp.c:198: undefined reference to `deflate'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(comp.c.o): In function `comp_method_zlib_decomp':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/comp.c:256: undefined reference to `inflate'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(comp.c.o): In function `comp_method_zlib_dtor':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/comp.c:311: undefined reference to `deflateEnd'
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/comp.c:313: undefined reference to `inflateEnd'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o): In function `crypt_dtor':
+/home/corgi/.cargo/registry/src/github.com-88ac128001ac3a9a/libssh2-sys-0.1.37/libssh2/src/crypt.c:112: undefined reference to `EVP_CIPHER_CTX_cleanup'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_aes128_ctr+0x38): undefined reference to `EVP_aes_128_ctr'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_aes192_ctr+0x38): undefined reference to `EVP_aes_192_ctr'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_aes256_ctr+0x38): undefined reference to `EVP_aes_256_ctr'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_aes128_cbc+0x38): undefined reference to `EVP_aes_128_cbc'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_aes192_cbc+0x38): undefined reference to `EVP_aes_192_cbc'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_aes256_cbc+0x38): undefined reference to `EVP_aes_256_cbc'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_rijndael_cbc_lysator_liu_se+0x38): undefined reference to `EVP_aes_256_cbc'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_blowfish_cbc+0x38): undefined reference to `EVP_bf_cbc'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_arcfour+0x38): undefined reference to `EVP_rc4'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_arcfour128+0x38): undefined reference to `EVP_rc4'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_cast128_cbc+0x38): undefined reference to `EVP_cast5_cbc'
+/home/corgi/Work/Rust/git-ls-l/target/debug/build/libssh2-sys-cbc6fdd97830bc3a/out/lib/libssh2.a(crypt.c.o):(.data.rel.ro.libssh2_crypt_method_3des_cbc+0x38): undefined reference to `EVP_des_ede3_cbc'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7ddb3.dir/build.make:97: recipe for target 'cmTC_7ddb3' failed
+make[1]: *** [cmTC_7ddb3] Error 1
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7ddb3/fast' failed
+make: *** [cmTC_7ddb3/fast] Error 2
+
+
+Performing C SOURCE FILE Test IS_WDOCUMENTATION_SUPPORTED failed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53b22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53b22.dir/build.make CMakeFiles/cmTC_53b22.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53b22.dir/src.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -DIS_WDOCUMENTATION_SUPPORTED   -Wdocumentation -o CMakeFiles/cmTC_53b22.dir/src.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wdocumentation'
+CMakeFiles/cmTC_53b22.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_53b22.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_53b22.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_53b22/fast' failed
+make: *** [cmTC_53b22/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test IS_WNO-UNUSED-CONST-VARIABLE_SUPPORTED failed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6512/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6512.dir/build.make CMakeFiles/cmTC_e6512.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6512.dir/src.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -DIS_WNO-UNUSED-CONST-VARIABLE_SUPPORTED   -Wno-unused-const-variable -o CMakeFiles/cmTC_e6512.dir/src.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:7: warning: ISO C99 requires whitespace after the macro name
+cc1: warning: unrecognized command line option '-Wno-unused-const-variable'
+Linking C executable cmTC_e6512
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6512.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -DIS_WNO-UNUSED-CONST-VARIABLE_SUPPORTED    CMakeFiles/cmTC_e6512.dir/src.c.o  -o cmTC_e6512 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the function qsort_s exists failed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5352/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5352.dir/build.make CMakeFiles/cmTC_c5352.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5352.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=qsort_s   -o CMakeFiles/cmTC_c5352.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_c5352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5352.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=qsort_s    CMakeFiles/cmTC_c5352.dir/CheckFunctionExists.c.o  -o cmTC_c5352 -rdynamic 
+CMakeFiles/cmTC_c5352.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.main+0x15): undefined reference to `qsort_s'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c5352.dir/build.make:97: recipe for target 'cmTC_c5352' failed
+make[1]: *** [cmTC_c5352] Error 1
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c5352/fast' failed
+make: *** [cmTC_c5352/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f39a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f39a7.dir/build.make CMakeFiles/cmTC_f39a7.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f39a7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function    -o CMakeFiles/cmTC_f39a7.dir/CheckSymbolExists.c.o   -c /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f39a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f39a7.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function     CMakeFiles/cmTC_f39a7.dir/CheckSymbolExists.c.o  -o cmTC_f39a7 -rdynamic 
+CMakeFiles/cmTC_f39a7.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text.main+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f39a7.dir/build.make:97: recipe for target 'cmTC_f39a7' failed
+make[1]: *** [cmTC_f39a7] Error 1
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f39a7/fast' failed
+make: *** [cmTC_f39a7/fast] Error 2
+
+File /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f19a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f19a7.dir/build.make CMakeFiles/cmTC_f19a7.dir/build
+make[1]: Entering directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f19a7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f19a7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_f19a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f19a7.dir/link.txt --verbose=1
+/usr/bin/cc  -D_GNU_SOURCE -Wall -Wextra  -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wno-missing-field-initializers -Wstrict-aliasing=2 -Wstrict-prototypes -Wdeclaration-after-statement -Wno-unused-function -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f19a7.dir/CheckFunctionExists.c.o  -o cmTC_f19a7 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f19a7.dir/build.make:97: recipe for target 'cmTC_f19a7' failed
+make[1]: *** [cmTC_f19a7] Error 1
+make[1]: Leaving directory '/home/corgi/Work/Rust/git-ls-l/target/debug/build/libgit2-sys-599545024e7f41ea/out/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f19a7/fast' failed
+make: *** [cmTC_f19a7/fast] Error 2
+
+
