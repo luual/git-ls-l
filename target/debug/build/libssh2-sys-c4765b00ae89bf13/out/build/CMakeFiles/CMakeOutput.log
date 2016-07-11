@@ -1,0 +1,609 @@
+The system is: Linux - 4.2.0-38-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: ;-O0;-ffunction-sections;-fdata-sections;-m64;-fPIC
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/3.2.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4066885332/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4066885332.dir/build.make CMakeFiles/cmTryCompileExec4066885332.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4066885332.dir/testCCompiler.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -o CMakeFiles/cmTryCompileExec4066885332.dir/testCCompiler.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4066885332
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4066885332.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC     CMakeFiles/cmTryCompileExec4066885332.dir/testCCompiler.c.o  -o cmTryCompileExec4066885332 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3726981514/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3726981514.dir/build.make CMakeFiles/cmTryCompileExec3726981514.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3726981514.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -o CMakeFiles/cmTryCompileExec3726981514.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3726981514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3726981514.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -v CMakeFiles/cmTryCompileExec3726981514.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3726981514 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O0' '-ffunction-sections' '-fdata-sections' '-m64' '-fPIC' '-v' '-o' 'cmTryCompileExec3726981514' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccU9hGv3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3726981514 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec3726981514.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3726981514/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3726981514.dir/build.make CMakeFiles/cmTryCompileExec3726981514.dir/build]
+  ignore line: [make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3726981514.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -o CMakeFiles/cmTryCompileExec3726981514.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3726981514]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3726981514.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -v CMakeFiles/cmTryCompileExec3726981514.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3726981514 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O0' '-ffunction-sections' '-fdata-sections' '-m64' '-fPIC' '-v' '-o' 'cmTryCompileExec3726981514' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccU9hGv3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3726981514 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec3726981514.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccU9hGv3.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3726981514] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTryCompileExec3726981514.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3577293840/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3577293840.dir/build.make CMakeFiles/cmTryCompileExec3577293840.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3577293840.dir/feature_tests.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -std=c11 -o CMakeFiles/cmTryCompileExec3577293840.dir/feature_tests.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3577293840
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3577293840.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC     CMakeFiles/cmTryCompileExec3577293840.dir/feature_tests.c.o  -o cmTryCompileExec3577293840 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1621519917/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1621519917.dir/build.make CMakeFiles/cmTryCompileExec1621519917.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1621519917.dir/feature_tests.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -std=c99 -o CMakeFiles/cmTryCompileExec1621519917.dir/feature_tests.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1621519917
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1621519917.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC     CMakeFiles/cmTryCompileExec1621519917.dir/feature_tests.c.o  -o cmTryCompileExec1621519917 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2252239272/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2252239272.dir/build.make CMakeFiles/cmTryCompileExec2252239272.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2252239272.dir/feature_tests.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC    -std=c90 -o CMakeFiles/cmTryCompileExec2252239272.dir/feature_tests.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2252239272
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2252239272.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC     CMakeFiles/cmTryCompileExec2252239272.dir/feature_tests.c.o  -o cmTryCompileExec2252239272 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the function EVP_aes_128_ctr exists passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3643644552/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3643644552.dir/build.make CMakeFiles/cmTryCompileExec3643644552.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3643644552.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DCHECK_FUNCTION_EXISTS=EVP_aes_128_ctr   -o CMakeFiles/cmTryCompileExec3643644552.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3643644552
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3643644552.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DCHECK_FUNCTION_EXISTS=EVP_aes_128_ctr    CMakeFiles/cmTryCompileExec3643644552.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3643644552 -rdynamic -lssl -lcrypto 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3451411288/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3451411288.dir/build.make CMakeFiles/cmTryCompileExec3451411288.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3451411288.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec3451411288.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3451411288
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3451411288.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec3451411288.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3451411288 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3474030526/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3474030526.dir/build.make CMakeFiles/cmTryCompileExec3474030526.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3474030526.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec3474030526.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3474030526
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3474030526.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec3474030526.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3474030526 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2833674839/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2833674839.dir/build.make CMakeFiles/cmTryCompileExec2833674839.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2833674839.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec2833674839.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2833674839
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2833674839.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec2833674839.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2833674839 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2166211739/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2166211739.dir/build.make CMakeFiles/cmTryCompileExec2166211739.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2166211739.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec2166211739.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2166211739
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2166211739.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec2166211739.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2166211739 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4007123764/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4007123764.dir/build.make CMakeFiles/cmTryCompileExec4007123764.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4007123764.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec4007123764.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4007123764
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4007123764.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec4007123764.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4007123764 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1862824509/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1862824509.dir/build.make CMakeFiles/cmTryCompileExec1862824509.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1862824509.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec1862824509.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1862824509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1862824509.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec1862824509.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1862824509 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec399639017/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec399639017.dir/build.make CMakeFiles/cmTryCompileExec399639017.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec399639017.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec399639017.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec399639017
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec399639017.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec399639017.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec399639017 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2418151872/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2418151872.dir/build.make CMakeFiles/cmTryCompileExec2418151872.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2418151872.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec2418151872.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2418151872
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2418151872.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec2418151872.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2418151872 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/un.h exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1491553116/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1491553116.dir/build.make CMakeFiles/cmTryCompileExec1491553116.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1491553116.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec1491553116.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1491553116
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1491553116.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec1491553116.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1491553116 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3940732309/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3940732309.dir/build.make CMakeFiles/cmTryCompileExec3940732309.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3940732309.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec3940732309.dir/CheckIncludeFile.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3940732309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3940732309.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec3940732309.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3940732309 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4224911693/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4224911693.dir/build.make CMakeFiles/cmTryCompileExec4224911693.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4224911693.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec4224911693.dir/CheckIncludeFile.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4224911693
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4224911693.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec4224911693.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4224911693 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2036696396/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2036696396.dir/build.make CMakeFiles/cmTryCompileExec2036696396.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2036696396.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec2036696396.dir/CheckIncludeFile.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2036696396
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2036696396.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec2036696396.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2036696396 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4249853635/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4249853635.dir/build.make CMakeFiles/cmTryCompileExec4249853635.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4249853635.dir/LONGLONG.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec4249853635.dir/LONGLONG.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CheckTypeSize/LONGLONG.c
+Linking C executable cmTryCompileExec4249853635
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4249853635.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec4249853635.dir/LONGLONG.c.o  -o cmTryCompileExec4249853635 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec256898457/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec256898457.dir/build.make CMakeFiles/cmTryCompileExec256898457.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec256898457.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec256898457.dir/CheckSymbolExists.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec256898457
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec256898457.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec256898457.dir/CheckSymbolExists.c.o  -o cmTryCompileExec256898457 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+File /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec887701426/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec887701426.dir/build.make CMakeFiles/cmTryCompileExec887701426.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec887701426.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec887701426.dir/CheckSymbolExists.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec887701426
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec887701426.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec887701426.dir/CheckSymbolExists.c.o  -o cmTryCompileExec887701426 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+File /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec899231159/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec899231159.dir/build.make CMakeFiles/cmTryCompileExec899231159.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec899231159.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec899231159.dir/CheckSymbolExists.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec899231159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec899231159.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall     CMakeFiles/cmTryCompileExec899231159.dir/CheckSymbolExists.c.o  -o cmTryCompileExec899231159 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+File /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec432531158/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec432531158.dir/build.make CMakeFiles/cmTryCompileExec432531158.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec432531158.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTryCompileExec432531158.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec432531158
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec432531158.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTryCompileExec432531158.dir/CheckFunctionExists.c.o  -o cmTryCompileExec432531158 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2020995393/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2020995393.dir/build.make CMakeFiles/cmTryCompileExec2020995393.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2020995393.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DCHECK_FUNCTION_EXISTS=socket   -o CMakeFiles/cmTryCompileExec2020995393.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2020995393
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2020995393.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DCHECK_FUNCTION_EXISTS=socket    CMakeFiles/cmTryCompileExec2020995393.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2020995393 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2729485122/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2729485122.dir/build.make CMakeFiles/cmTryCompileExec2729485122.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2729485122.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles/cmTryCompileExec2729485122.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2729485122
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2729485122.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DCHECK_FUNCTION_EXISTS=select    CMakeFiles/cmTryCompileExec2729485122.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2729485122 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_addr exists passed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec579010895/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec579010895.dir/build.make CMakeFiles/cmTryCompileExec579010895.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec579010895.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DCHECK_FUNCTION_EXISTS=inet_addr   -o CMakeFiles/cmTryCompileExec579010895.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec579010895
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec579010895.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DCHECK_FUNCTION_EXISTS=inet_addr    CMakeFiles/cmTryCompileExec579010895.dir/CheckFunctionExists.c.o  -o cmTryCompileExec579010895 -rdynamic 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_O_NONBLOCK succeded with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2465499915/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2465499915.dir/build.make CMakeFiles/cmTryCompileExec2465499915.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2465499915.dir/src.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DHAVE_O_NONBLOCK   -o CMakeFiles/cmTryCompileExec2465499915.dir/src.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/src.c
+/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/src.c:24:17: warning: ‘flags’ is used uninitialized in this function [-Wuninitialized]
+     int flags = fcntl(socket, F_SETFL, flags | O_NONBLOCK);
+                 ^
+/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/src.c:24:9: warning: ‘socket’ is used uninitialized in this function [-Wuninitialized]
+     int flags = fcntl(socket, F_SETFL, flags | O_NONBLOCK);
+         ^
+Linking C executable cmTryCompileExec2465499915
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2465499915.dir/link.txt --verbose=1
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall -DHAVE_O_NONBLOCK    CMakeFiles/cmTryCompileExec2465499915.dir/src.c.o  -o cmTryCompileExec2465499915 -rdynamic -lssl -lcrypto -lz 
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+#if defined(sun) || defined(__sun__) || defined(__SUNPRO_C) || defined(__SUNPRO_CC)
+# if defined(__SVR4) || defined(__srv4__)
+#  define PLATFORM_SOLARIS
+# else
+#  define PLATFORM_SUNOS4
+# endif
+#endif
+#if (defined(_AIX) || defined(__xlC__)) && !defined(_AIX41)
+# define PLATFORM_AIX_V3
+#endif
+
+#if defined(PLATFORM_SUNOS4) || defined(PLATFORM_AIX_V3) || defined(__BEOS__)
+#error "O_NONBLOCK does not work on this platform"
+#endif
+
+int main()
+{
+    int socket;
+    int flags = fcntl(socket, F_SETFL, flags | O_NONBLOCK);
+}

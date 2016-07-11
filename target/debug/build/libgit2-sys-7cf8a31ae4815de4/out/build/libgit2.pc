@@ -1,0 +1,13 @@
+prefix=/home/corgi/Work/git-ls-l/target/debug/build/libgit2-sys-7cf8a31ae4815de4/out
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libgit2
+Description: The git library, take 2
+Version: 0.23.0
+
+Libs: -L"${libdir}" -lgit2
+Libs.private: -L/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/lib -lssh2 -lrt
+Requires.private:  openssl zlib
+
+Cflags: -I${includedir}

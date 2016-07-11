@@ -1,0 +1,72 @@
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4044819930/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4044819930.dir/build.make CMakeFiles/cmTryCompileExec4044819930.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4044819930.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec4044819930.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: windows.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTryCompileExec4044819930.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4044819930.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4044819930.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec4044819930/fast' failed
+make: *** [cmTryCompileExec4044819930/fast] Error 2
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files ws2tcpip.h exist failed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1399434268/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1399434268.dir/build.make CMakeFiles/cmTryCompileExec1399434268.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1399434268.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec1399434268.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: ws2tcpip.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTryCompileExec1399434268.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1399434268.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1399434268.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec1399434268/fast' failed
+make: *** [cmTryCompileExec1399434268/fast] Error 2
+
+Source:
+/* */
+#include <ws2tcpip.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h exist failed with the following output:
+Change Dir: /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2415239498/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2415239498.dir/build.make CMakeFiles/cmTryCompileExec2415239498.dir/build
+make[1]: Entering directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2415239498.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -O0 -ffunction-sections -fdata-sections -m64 -fPIC -Wall    -o CMakeFiles/cmTryCompileExec2415239498.dir/CheckIncludeFiles.c.o   -c /home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: winsock2.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTryCompileExec2415239498.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2415239498.dir/CheckIncludeFiles.c.o' failed
+make[1]: Leaving directory '/home/corgi/Work/git-ls-l/target/debug/build/libssh2-sys-c4765b00ae89bf13/out/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2415239498.dir/CheckIncludeFiles.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2415239498/fast' failed
+make: *** [cmTryCompileExec2415239498/fast] Error 2
+
+Source:
+/* */
+#include <winsock2.h>
+
+
+int main(void){return 0;}
+
