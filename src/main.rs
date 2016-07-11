@@ -15,10 +15,20 @@ fn main(){
     //let mut status_option: Option<git2::StatusOptions> = StatusOptions::new();
     //let mut statuses = repository.statuses(&mut status_option);
     let index_repo = match repository.index(){
-        Ok(Index)       => Index,
+        Ok(index)       => index,
         Err(e)          => panic!("Failed to get index {}", e),
     };
-    println!("length : {}", index_repo.len());
-    println!("------------------------------");
-    println!("{}", String::from_utf8_lossy(&output.stdout));
+    let mut status_option = StatusOptions::new();
+    // Include untracked files
+    status_option.include_untracked(true);
+    let status_2: Option<& mut StatusOptions> = Some(&mut status_option);
+    let mut statuses = match repository.statuses(status_2){
+        Ok(statuses)    => statuses,
+        Err(e)          => panic!("Failed to get statuses {}", e),
+    };
+    if statuses.len() > 0 {
+        println!("length : {}", statuses.len());
+        let iterator = statuses.iter();
+    }
+    //println!("{}", String::from_utf8_lossy(&output.stdout));
 }
